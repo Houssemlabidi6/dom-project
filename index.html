@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <ul class="navbar-nav">
+          <!-- Badge -->
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <img
+              src=https://cdn.icon-icons.com/icons2/1744/PNG/512/3643737-cart-drop-shop-shopping-trolly_113425.png
+              alt="" width="100px"/>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="h-100" style="background-color: #eee">
+      <div class="container h-100 py-5">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+          <div class="col-10">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+              <h3 class="fw-normal mb-0 text-black">Online Shopping</h3>
+              <div>
+                <p class="mb-0">
+                  <span class="text-muted">Sort by:</span>
+                  <a href="#!" class="text-body"
+                    >price <i class="fas fa-angle-down mt-1"></i>
+                  </a>
+                </p>
+              </div>
+            </div>
+            <div class="card rounded-3 mb-4">
+              <div class="card-body p-4">
+                <div
+                  class="row d-flex justify-content-between align-items-center"
+                >
+                  <div class="col-md-2 col-lg-2 col-xl-2">
+                    <img
+                    src=https://www.istore.com.tn/4736-medium_default/iphone-14-pro-max-128-go-gold.jpg
+                    class="img-fluid rounded-3" alt="Cotton T-shirt" />
+                  </div>
+                  <div class="col-md-3 col-lg-3 col-xl-3">
+                    <p class="lead fw-normal mb-2">I-Phone 14 pro-max</p>
+                    <p><span class="text-muted">Color: </span>Gold</p>
+
+                    <span class="text-muted">Preice en $ : </span>
+                    <p id="preis">1299</p>
+                  </div>
+                  <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
+                    <button type="button" class="moins">
+                      <span class="bi bi-chevron-left"></span>
+                    </button>
+                    <h2 class="form">0</h2>
+                    <button type="button" class="plus">
+                      <span class="bi bi-chevron-right"></span>
+                    </button>
+                  </div>
+                  <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                    <input type="text" class="col-10" id="prix" />
+                  </div>
+                  <div class="col-md-1 col-lg-1 col-xl-1 text-end">
+                    <a href="#!" class="text-danger">
+                      <button type="button" id="remove" class="btn btn-light">
+                        <span class="bi bi-archive-fill"></span></button
+                    ></a>
+                    <br />
+                    <br />
+                    <button type="button" class="btn btn-light">
+                      <span id="heart" class="bi bi-heart-fill"></span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card rounded-3 mb-4">
+              <div class="card-body p-4">
+                <div
+                  class="row d-flex justify-content-between align-items-center"
+                >
+                  <div class="col-md-2 col-lg-2 col-xl-2">
+                    <img
+                    src=https://www.samsungtunisie.tn/8225-large_default/samsung-galaxy-s22-ultra-prix-tunisie.jpg
+                    class="img-fluid rounded-3" alt="Cotton T-shirt" />
+                  </div>
+                  <div class="col-md-3 col-lg-3 col-xl-3">
+                    <p class="lead fw-normal mb-2">Samsung Galaxy S22 ultra</p>
+                    <p><span class="text-muted">Color: </span>Black</p>
+
+                    <span class="text-muted">Preice en $ : </span>
+                    <p id="preis">655</p>
+                  </div>
+                  <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
+                    <button type="button" class="moins">
+                      <span class="bi bi-chevron-left"></span>
+                    </button>
+
+                    <h2 class="form">0</h2>
+
+                    <button type="button" class="plus">
+                      <span class="bi bi-chevron-right"></span>
+                    </button>
+                  </div>
+                  <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                    <input type="text" class="col-10" id="prix" />
+                  </div>
+                  <div class="col-md-1 col-lg-1 col-xl-1 text-end">
+                    <a href="#!" class="text-danger"
+                      ><button type="button" id="remove" class="btn btn-light">
+                        <span class="bi bi-archive-fill"></span></button
+                    ></a>
+                    <br />
+                    <br />
+                    <button type="button" class="btn btn-light">
+                      <span id="heart" class="bi bi-heart-fill"></span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card rounded-3 mb-4">
+              <div class="card-body p-4">
+                <div
+                  class="row d-flex justify-content-between align-items-center"
+                >
+                  <div class="col-md-2 col-lg-2 col-xl-2">
+                    <img
+                    src=https://i01.appmifile.com/webfile/globalimg/Iris/xiaomi-11t-blue!800x800!85.png
+                    class="img-fluid rounded-3" alt="Cotton T-shirt" />
+                  </div>
+                  <div class="col-md-3 col-lg-3 col-xl-3">
+                    <p class="lead fw-normal mb-2">Xiaomi 11t</p>
+                    <p><span class="text-muted">Color: </span>blue</p>
+
+                    <span class="text-muted">Preice en $ : </span>
+                    <p id="preis">469</p>
+                  </div>
+                  <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
+                    <button type="button" class="moins">
+                      <span class="bi bi-chevron-left"></span>
+                    </button>
+
+                    <h2 class="form">0</h2>
+
+                    <button type="button" class="plus">
+                      <span class="bi bi-chevron-right"></span>
+                    </button>
+                  </div>
+                  <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                    <input type="text" class="col-10" id="prix" />
+                  </div>
+                  <div class="col-md-1 col-lg-1 col-xl-1 text-end">
+                    <a href="#!" class="text-danger"
+                      ><button type="button" id="remove" class="btn btn-light">
+                        <span class="bi bi-archive-fill"></span></button
+                    ></a>
+                    <br />
+                    <br />
+                    <button type="button" class="btn btn-light">
+                      <span id="heart" class="bi bi-heart-fill"></span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card rounded-3 mb-4">
+              <div class="card-body p-4">
+                <div
+                  class="row d-flex justify-content-between align-items-center"
+                >
+                  <div class="col-md-2 col-lg-2 col-xl-2">
+                    <img
+                    src=https://image.oppo.com/content/dam/oppo/common/mkt/v2-2/new-navi/a77s.png.thumb.webp
+                    class="img-fluid rounded-3" alt="Cotton T-shirt" />
+                  </div>
+                  <div class="col-md-3 col-lg-3 col-xl-3">
+                    <p class="lead fw-normal mb-2">OPPO 77s</p>
+                    <p><span class="text-muted">Color: </span>Orange</p>
+                    <p id="preis">
+                      222
+                      <!-- <span class="text-muted">Preice ($) : </span>269 -->
+                    </p>
+                  </div>
+                  <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
+                    <button type="button" class="moins">
+                      <span class="bi bi-chevron-left"></span>
+                    </button>
+
+                    <h2 class="form">0</h2>
+
+                    <button type="button" class="plus">
+                      <span class="bi bi-chevron-right"></span>
+                    </button>
+                  </div>
+                  <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                    <input type="text" class="col-10" id="prix" />
+                  </div>
+                  <div class="col-md-1 col-lg-1 col-xl-1 text-end">
+                    <a href="#!" class="text-danger"
+                      ><button type="button" id="remove" class="btn btn-light">
+                        <span class="bi bi-archive-fill"></span></button
+                    ></a>
+                    <br />
+                    <br />
+                    <button type="button" class="btn btn-light">
+                      <span id="heart" class="bi bi-heart-fill"></span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card mb-4">
+              <div class="card-body p-4 d-flex flex-row">
+                <div class="form-outline flex-fill">
+                  <input
+                    type="text"
+                    id="form1"
+                    class="form-control form-control-lg"
+                  />
+                  <label class="form-label" for="form1">Total Price</label>
+                </div>
+                <button
+                  type="button"
+                  class="btn btn-outline-warning btn-lg ms-3"
+                  id="xyz"
+                  onclick="alert('Are you sure to apply?')"
+                >
+                  Apply
+                </button>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-body">
+                <button
+                  type="button"
+                  class="btn btn-warning btn-block btn-lg"
+                  onclick="alert('Go to next step')"
+                >
+                  Proceed to Pay
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+
+    <div class="card shadow-2-strong mb-5 mb-lg-0" style="border-radius: 16px">
+      <div class="card-body p-4">
+        <div class="row">
+          <div class="col-md-6 col-lg-4 col-xl-3 mb-4 mb-md-0">
+            <form>
+              <div class="d-flex flex-row pb-3">
+                <div class="d-flex align-items-center pe-2">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="radioNoLabel"
+                    id="radioNoLabel1v"
+                    value=""
+                    aria-label="..."
+                    checked
+                  />
+                </div>
+                <div class="rounded border w-100 p-3">
+                  <p class="d-flex align-items-center mb-0">
+                    <i class="fab fa-cc-mastercard fa-2x text-dark pe-2"></i
+                    >Credit Card
+                  </p>
+                </div>
+              </div>
+              <div class="d-flex flex-row pb-3">
+                <div class="d-flex align-items-center pe-2">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="radioNoLabel"
+                    id="radioNoLabel2v"
+                    value=""
+                    aria-label="..."
+                  />
+                </div>
+                <div class="rounded border w-100 p-3">
+                  <p class="d-flex align-items-center mb-0">
+                    <i class="fab fa-cc-visa fa-2x fa-lg text-dark pe-2"></i
+                    >Debit Card
+                  </p>
+                </div>
+              </div>
+              <div class="d-flex flex-row">
+                <div class="d-flex align-items-center pe-2">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="radioNoLabel"
+                    id="radioNoLabel3v"
+                    value=""
+                    aria-label="..."
+                  />
+                </div>
+                <div class="rounded border w-100 p-3">
+                  <p class="d-flex align-items-center mb-0">
+                    <i class="fab fa-cc-paypal fa-2x fa-lg text-dark pe-2"></i
+                    >PayPal
+                  </p>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl-6">
+            <div class="row">
+              <div class="col-12 col-xl-6">
+                <div class="form-outline mb-4 mb-xl-5">
+                  <input
+                    type="text"
+                    id="typeName"
+                    class="form-control form-control-lg"
+                    siez="17"
+                    placeholder="Your First Name"
+                  />
+                  <label class="form-label" for="typeName">Name on card</label>
+                </div>
+
+                <div class="form-outline mb-4 mb-xl-5">
+                  <input
+                    type="text"
+                    id="typeExp"
+                    class="form-control form-control-lg"
+                    placeholder="MM/YY"
+                    size="7"
+                    id="exp"
+                    minlength="7"
+                    maxlength="7"
+                  />
+                  <label class="form-label" for="typeExp">Expiration</label>
+                </div>
+              </div>
+              <div class="col-12 col-xl-6">
+                <div class="form-outline mb-4 mb-xl-5">
+                  <input
+                    type="text"
+                    id="typeText"
+                    class="form-control form-control-lg"
+                    siez="17"
+                    placeholder="1111 2222 3333 4444"
+                    minlength="19"
+                    maxlength="19"
+                  />
+                  <label class="form-label" for="typeText">Card Number</label>
+                </div>
+
+                <div class="form-outline mb-4 mb-xl-5">
+                  <input
+                    type="password"
+                    id="typeText"
+                    class="form-control form-control-lg"
+                    placeholder="&#9679;&#9679;&#9679;"
+                    size="1"
+                    minlength="3"
+                    maxlength="3"
+                  />
+                  <label class="form-label" for="typeText">Password</label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
